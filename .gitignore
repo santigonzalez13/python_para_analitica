@@ -1,0 +1,34 @@
+
+---
+
+### **📄 .gitignore**
+```plaintext
+# ⛔ Evitar archivos de entornos virtuales
+venv/
+.env
+
+# ⛔ Cachés y archivos compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ⛔ Configuración de IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+
+# ⛔ Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# ⛔ Archivos de Jupyter Notebook temporales
+.ipynb_checkpoints/
+
+# ⛔ Logs y dumps
+*.log
+*.sqlite3
+
+# ⛔ Archivos sensibles (credenciales, claves API, etc.)
+*.env
+config.json
