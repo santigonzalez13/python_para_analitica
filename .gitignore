@@ -4,7 +4,7 @@
 ### **📄 .gitignore**
 ```plaintext
 # ⛔ Evitar archivos de entornos virtuales
-venv/
+mi_entorno/
 .env
 
 # ⛔ Cachés y archivos compilados
