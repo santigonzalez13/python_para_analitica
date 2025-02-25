@@ -1,3 +1,4 @@
-,Edad,Ciudad,Profesión
-0,25,Madrid,Ingeniera
-2,35,Valencia,Médico
+,Nombre,Edad,Ciudad,Profesión
+0,Ana,25,Madrid,Ingeniera
+1,Luis,30,Barcelona,Arquitecto
+2,Carlos,35,Valencia,Médico
