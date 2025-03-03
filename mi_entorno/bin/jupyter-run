@@ -1,4 +1,4 @@
-#!/home/gonzales06082002/monitoria_python/mi_entorno/bin/python
+#!/home/gonzales06082002/monitoria_python/mi_entorno/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
