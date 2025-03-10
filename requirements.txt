@@ -4,4 +4,4 @@ gdown
 gitpython
 matplotlib
 kagglehub
-dataprep
+scikit-learn
