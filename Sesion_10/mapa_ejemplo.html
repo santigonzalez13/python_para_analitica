@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_35f28eb3863224177b37813699963ed0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_35f28eb3863224177b37813699963ed0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_35f28eb3863224177b37813699963ed0 = L.map(
+                "map_35f28eb3863224177b37813699963ed0",
+                {
+                    center: [40.4168, -3.7038],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_71f2532264fb51e22e54c6b32b3e8443 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_71f2532264fb51e22e54c6b32b3e8443.addTo(map_35f28eb3863224177b37813699963ed0);
+        
+    
+            var marker_107f31322e6be42ea289a8725b421881 = L.marker(
+                [40.4168, -3.7038],
+                {
+}
+            ).addTo(map_35f28eb3863224177b37813699963ed0);
+        
+    
+            var icon_86a1cb7ae56f261a54885258bfdc2d74 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3ab4f954dae26653969cc2e448ad75a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1613a2361f5923b4a833f714991981f5 = $(`<div id="html_1613a2361f5923b4a833f714991981f5" style="width: 100.0%; height: 100.0%;">Puerta del Sol Plaza central de Madrid</div>`)[0];
+                popup_3ab4f954dae26653969cc2e448ad75a6.setContent(html_1613a2361f5923b4a833f714991981f5);
+            
+        
+
+        marker_107f31322e6be42ea289a8725b421881.bindPopup(popup_3ab4f954dae26653969cc2e448ad75a6)
+        ;
+
+        
+    
+    
+                marker_107f31322e6be42ea289a8725b421881.setIcon(icon_86a1cb7ae56f261a54885258bfdc2d74);
+            
+    
+            var marker_9f77e4053313a113a61e47315e338128 = L.marker(
+                [40.4138, -3.6845],
+                {
+}
+            ).addTo(map_35f28eb3863224177b37813699963ed0);
+        
+    
+            var icon_0ca33a44fbdc0787993aeb08d1df7373 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b9d97e6bc5babcfa3e58124269ced51e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5d4ddca310a4d882bf5a3cfbc9a752c = $(`<div id="html_c5d4ddca310a4d882bf5a3cfbc9a752c" style="width: 100.0%; height: 100.0%;">Parque del Retiro Gran parque en el centro de Madrid</div>`)[0];
+                popup_b9d97e6bc5babcfa3e58124269ced51e.setContent(html_c5d4ddca310a4d882bf5a3cfbc9a752c);
+            
+        
+
+        marker_9f77e4053313a113a61e47315e338128.bindPopup(popup_b9d97e6bc5babcfa3e58124269ced51e)
+        ;
+
+        
+    
+    
+                marker_9f77e4053313a113a61e47315e338128.setIcon(icon_0ca33a44fbdc0787993aeb08d1df7373);
+            
+    
+            var marker_07a0c7e18b4f80807b666dc5c230d319 = L.marker(
+                [40.4138, -3.6947],
+                {
+}
+            ).addTo(map_35f28eb3863224177b37813699963ed0);
+        
+    
+            var icon_260c34d3426aafea0990367a97460315 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4ccb4f3a61d5d13499819ad9cf125e3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b96e54ce3b56c77e2cbc8218db0a932 = $(`<div id="html_9b96e54ce3b56c77e2cbc8218db0a932" style="width: 100.0%; height: 100.0%;">Museo del Prado Famoso museo de arte</div>`)[0];
+                popup_4ccb4f3a61d5d13499819ad9cf125e3c.setContent(html_9b96e54ce3b56c77e2cbc8218db0a932);
+            
+        
+
+        marker_07a0c7e18b4f80807b666dc5c230d319.bindPopup(popup_4ccb4f3a61d5d13499819ad9cf125e3c)
+        ;
+
+        
+    
+    
+                marker_07a0c7e18b4f80807b666dc5c230d319.setIcon(icon_260c34d3426aafea0990367a97460315);
+            
+</script>
+</html>

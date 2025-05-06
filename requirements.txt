@@ -6,3 +6,4 @@ matplotlib
 kagglehub
 scikit-learn
 requests
+folium
