@@ -7,3 +7,4 @@ kagglehub
 scikit-learn
 requests
 folium
+tensorflow
